@@ -1,0 +1,178 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  border-radius: 7px;
+}
+
+/*dropbtn*/
+
+.dp {
+  background-color: #5a7081;
+  color: #ffffff;
+  border: none;
+  padding: 14px 36px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+
+/*dropdown nav*/
+
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropbtn {
+padding: 14px 16px;
+background-color: #5a7081;
+}
+
+.dropdown .dropbtn {
+  text-align: center;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 36px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5a7081;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b8c4cf;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*dropnav*/
+
+
+
+#regForm {
+  background-color: rgba(255,255,255,0.6);
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 30%;
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+ul {
+  font-family: Raleway;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #5a7081;
+}
+
+button {
+  background-color: #2f3640;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+}
+.active {
+  background-color: #5a7081;
+}
+
+.hero{
+  height: 100%;
+  width: 100%;
+  background-image:  linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)),url(cimg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

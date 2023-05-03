@@ -1,0 +1,87 @@
+
+
+
+
+
+
+/*dropdown nav*/
+
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5a7081;
+}
+
+
+
+/*dropnav*/
+
+.hero{
+  height: 165%;
+  width: 100%;
+  background-image:  linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.1)),url(cimg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+
+h1 {
+  text-align: center;
+  margin-left:30px;
+  color:white;
+  font-size:40px;
+}
+
+	.first-section {
+			color:black;
+			background-color:#E3E3E3;
+			width:300px;
+			padding:50px;
+			margin-left:30px;
+			border:5px brown solid;
+			border-radius:20px;
+			font-family: 'Oleo Script Swash Caps', cursive;
+			}
+	.second-section{
+			color:white;
+			background-color:#c20037;
+			width:400px;
+			margin-left:900px;
+			padding:50px;
+			height: 40%;
+			border:5px #E3E3E3 solid;
+			border-radius:20px;
+			font-family: 'Oleo Script Swash Caps', cursive;
+			position:bottom;
+			}
+	
+			
+
+
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

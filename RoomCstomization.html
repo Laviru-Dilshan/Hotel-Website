@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="css/cuzstyle.css" />
+<title>RooMCustomize</title>
+<body>
+
+<div style="font-family: Raleway" class="navbar">
+  <a href="Home.html">Home</a>
+  <a href="#news">News</a>
+  <a href="ContactInfo.html">Contact</a>
+  <a href="About.html">About</a>
+  <a href="RoomCstomization.html">Rooms</a>
+  <a href="#">Packages</a>
+  <a href="#">Gallery</a> 
+  
+  <div class="dropdown">
+    <div class="dp" <button class="dropbtn">Profile</button></div>
+    <div class="dropdown-content">
+      <a href="RoomCstomization.html">Room customization</a>
+      <a href="Displya.html">View customization</a>
+      <a href="Booking.html">Bookings</a>
+      <a href="SignUp.html">Logout</a>
+    </div>
+  </div> 
+</div>
+
+<div class="hero">
+<form id="regForm" action="./php/room_page.php"  method="get">
+  <h1>Room Customization</h1>
+  <!-- One "tab" for each step in the form: -->
+  <br>
+  <!-- colour theme: -->
+  <div class="tab">Choose Color theme for Room Arrangement:
+
+    <br><br>
+     <div class="select-box">
+         <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="default"
+                name="colour"
+              />
+              <label for="default">Default</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" id="film" value="Beige" />
+              <label for="beige"><b>Beige</b></label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" id="science" value="Cream" />
+              <label for="cream"><b>Cream</b></label>
+            </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="art" value="Grey" />
+              <label for="grey"><b>Grey </b></label>
+           </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="music" value="Yellows" />
+              <label for="yellows"><b>Yellows </b></label>
+           </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="music" value="Sepia" />
+              <label for="sepia"><b>Sepia </b></label>
+           </div>
+        </div>
+
+         <div class="selected">
+           Defualt
+          </div>
+        </div> 
+  </div>
+  <!-- meal plan: -->
+  <div class="tab">Chose your Meal Plan:
+    <br><br>
+
+    <div class="select-box">
+         <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="default"
+                name="meal"
+              />
+              <label for="default">Default</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" id="film" name="meal" />
+              <label for="bb"><b>BB</b> — Breakfast only</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" id="science" name="meal" />
+              <label for="hb"><b>HB</b> — Half board  <i>( bed, breakfast, evening meal – no drinks included in the evening )</i></label>
+            </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="art" name="meal" />
+              <label for="fb"><b>FB</b> — Full board  <i>( bed, breakfast, lunch, evening meal – no drinks included in the evening )</i> </label>
+           </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="music" name="meal" />
+              <label for="ai"><b>AI</b> — All-inclusive  <i>( bed, breakfast, lunch, evening meal, local drinks )</i></label>
+           </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="art" name="meal" />
+              <label for="uai"><b>UAI</b> — Enhanced all-inclusive <i>( bed, breakfast, lunch, evening meal, all types of drink )</i> </label>
+           </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="art" name="meal" />
+              <label for="hbb"><b>HB</b>+ — Bed, breakfast, evening meal + some alcoholic/non-alcoholic drinks </label>
+           </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="art" name="meal" />
+              <label for="fbb"><b>FB</b>+ — Bed, breakfast, lunch, evening meal + some alcoholic/non-alcoholic drinks </label>
+           </div>
+        </div>
+
+          <div class="selected">
+           Defualt
+          </div>
+        </div> 
+  </div>
+  <!-- minibar: -->
+  <div class="tab">Minibar Customization:
+    <br><br>
+
+    <div class="select-box">
+         <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                id="default"
+                name="customization"
+              />
+              <label for="default">Default</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" id="film" name="customization" />
+              <label for="none"><b>None</b></label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" id="science" name="customization" />
+              <label for="science"><b>Soft drinks</b> <i>( Coca-Cola, Pepsi, Sprite, Sierra Mist, Fanta, Sunkist, Mountain Dew, Dr. Pepper, and 7 UP )</i></label>
+            </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="art" name="customization" />
+              <label for="beer"><b>Beer</b> <i>( Bell's, Marz Community Brewing Co., Tripel Karmeliet, Pure Brewery )</i> </label>
+           </div>
+
+           <div class="option">
+              <input type="radio" class="radio" id="music" name="customization" />
+              <label for="liqour"><b>Liquor</b> <i>( Vodka, Rum, Wine, Arrarck, whiskey, local drinks )</i> </label>
+           </div>
+        </div>
+
+         <div class="selected">
+           Defualt
+          </div>
+        </div> 
+  </div>
+
+  <div class="tab">Login Info:
+    <p><input placeholder="Username..." oninput="this.className = ''" name="usern"></p>
+    <p><input placeholder="Password..." oninput="this.className = ''" name="password" type="password"></p>
+  </div>
+
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+  <input type="submit" name="submit" value="Submit">
+</form>
+
+<script src="js/main.js"></script>
+
+<br><br><br><br><br><br><br>
+<footer>
+  <center><img src="img/logo.svg" alt="user" height="115" width="234"></center>
+  <p style="font-family:sans-serif">Copyright @ 2023 Luxrange Hotels & Resorts. All Rights Reserved</p>
+</footer>
+
+</div>
+</body>
+</html>

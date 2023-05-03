@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="css/reg.css" />
+<title>SignUp</title>
+<body>
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="ContactInfo.html">Contact</a></li>
+  <li><a href="About.html">About</a></li>
+  <li><a href="RoomCstomization.html">Rooms</a></li>
+  <li><a href="#">Pakages</a></li>
+  <li><a href="#">Gallery</a></li>
+  <li style="float:right"><a class="active" href="#signup">SignUp | Login</a></li>
+</ul>
+
+<div class="hero">
+<form id="regForm" method="post" action="./php/action_page.php">
+  <h1>Register:</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab">Name:
+    <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
+    <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
+  </div>
+  <div class="tab">Contact Info:
+    <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
+    <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
+  </div>
+  <div class="tab">Birthday:
+    <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
+    <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
+    <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
+  </div>
+  <div class="tab">Login Info:
+    <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
+    <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+  </div>
+ <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+
+<script src="js/regmain.js"></script>
+
+<br><br><br><br>
+<footer>
+  <center><img src="img/logo.svg" alt="user" height="115" width="234"></center>
+  <p style="font-family:sans-serif">Copyright @ 2023 Luxrange Hotels & Resorts. All Rights Reserved</p>
+</footer>
+
+</div>
+</body>
+</html>
